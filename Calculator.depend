@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605643449 source:c:\users\ploch\documents\c++\calculator\main.cpp
+	<iostream>
+
+1605643449 source:c:\users\ploch\documents\c++\nazis-soft-calculator\main.cpp
+	<iostream>
+
