@@ -9,34 +9,34 @@ int main()
     double liczba1;
     double liczba2;
     int wybor;
-    cout <<"Co chcesz zrobic? \n";
-    cout <<"1 - Dzielenie\n";
-    cout <<"2 - Mnozenie\n";
-    cout <<"3 - Dodawanie \n";
-    cout <<"4 - Odejmowanie \n";
+    cout <<"What do you want? \n";
+    cout <<"1 - Division\n";
+    cout <<"2 - Multiplication\n";
+    cout <<"3 - Addition\n";
+    cout <<"4 - Subtraction\n";
     cout <<"5 - EXIT \n";
     cin >> wybor;
     while (wybor != 1 && wybor != 2 && wybor != 3 && wybor != 4 && wybor != 5)
         {
-            cout <<"Nieprawidlowa liczba prosze wprowadzic liczbe od 1 do 5\n";
+            cout <<"Incorrect number please enter a number from 1 to 5\n";
     cin >> wybor;
         }
             if (wybor == 5)
                 {
                     exit(0);
                 }
-    cout <<"Podaj pierwsza liczba: ";
+    cout <<"Enter first number: ";
     cin >> liczba1;
-    cout <<"Podaj druga liczba: ";
+    cout <<"Enter the second number: ";
     cin >> liczba2;
     while(wybor == 1)
         {
             if(liczba1 == 0 || liczba2 == 0)
                 {
                     cout <<"Cannot Divide By Zero\n";
-                    cout <<"Podaj pierwsza liczba: ";
+                    cout <<"Enter first number: ";
                     cin >> liczba1;
-                    cout <<"Podaj druga liczba: ";
+                    cout <<"Enter the second number: ";
                     cin >> liczba2;
                 } else
                 {
