@@ -46,19 +46,19 @@ int main()
     switch(wybor)
         {
             case 1:
-            cout <<liczba1 << " / " << liczba2 << " = " << liczba1 / liczba2 << endl;
+            cout << "\n" << "\n" << liczba1 << " / " << liczba2 << " = " << liczba1 / liczba2 << "\n" << "\n" << endl;
             break;
 
             case 2:
-            cout <<liczba1 << " * " << liczba2 << " = " << liczba1 * liczba2 << endl;
+            cout << "\n" << "\n" << liczba1 << " * " << liczba2 << " = " << liczba1 * liczba2 << "\n" << "\n" << endl;
             break;
 
             case 3:
-            cout <<liczba1 << " + " << liczba2 << " = " << liczba1 + liczba2 << endl;
+            cout << "\n" << "\n" << liczba1 << " + " << liczba2 << " = " << liczba1 + liczba2 << "\n" << "\n" << endl;
             break;
 
             case 4:
-            cout <<liczba1 << " - " << liczba2 << " = " << liczba1 - liczba2 << endl;
+            cout << "\n" << "\n" << liczba1 << " - " << liczba2 << " = " << liczba1 - liczba2 << "\n" << "\n" << endl;
             break;
         }
 
