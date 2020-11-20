@@ -1,0 +1,12 @@
+Package: nzcalc
+Version: 1.0
+Section: Calc
+Priority: optional
+Architecture: all
+Installed-Size: 17
+Homepage: https://nazissoft.github.io
+Maintainer: TheKozax (dawidploch01@gmail.com)
+Description: NazisSoft Terminal Calc
+ NazisSoft Terminal Calc allows to use calc in terminal environment
+ To use enter in termial: nzcalc
+

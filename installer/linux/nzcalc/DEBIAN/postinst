@@ -1,0 +1,4 @@
+#!/bin/sh
+chmod +x /usr/bin/nzcalc
+chmod 775 /usr/bin/nzcalc
+exit 0
